@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("images/bkg.png") 0 0;
+    color: #eaeaea;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+header {
+    white-space: nowrap;
+}
+
+.logo {
+    display: inline;
+    white-space: nowrap;
+}
+
+img {
+    float: right;
+    border: solid black;
+}
+
+#content {
+    text-align: center;
+    border: solid #636363;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px silver;
+    width: 1000px;
+}
+
+header > h1 {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 0 0 0 0;
+    font-weight: bold;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #b5e853;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0 5px rgba(181,232,83,0.1), 0 0 10px rgba(181,232,83,0.1);
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+header > img {
+     border: solid, black;
+     border-radius: 50px;
+}
+
+#clc {
+     text-align: center;
+}
+
+table {
+     width: 100%;
+}
+
+.links {
+    display: inline;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #282828;
+    margin-left: -10px;
+}
+
+#speciallink{
+    margin-left: 0px;
+    display: inline;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #282828;
+}
+
+/* Change the link color on hover */
+.links:hover {
+    background-color: #000;
+    color: white;
+}
+
+#speciallink:hover {
+    background-color: #000;
+    color: white;
+}
+
